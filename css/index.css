@@ -32,12 +32,13 @@ a{
    
 
 
-@media (max-width: 800px)
-    { .mypic { 
-       
-        
-
-    }}
-    ul{
-        font-size: 15pt;
+@media (max-width: 375px){
+    body {
+    background-color: lightgreen;
     }
+    .img {
+        max-width: 80vw;
+    }
+}
+
+
